@@ -1,0 +1,38 @@
+
+body{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.container div{
+    margin: auto;
+    margin-bottom :1rem ;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    /* background-color: rgb(225, 136, 224); */
+    border-radius: 10px;     
+
+}
+h1{
+    background-color: antiquewhite;
+    display:inline-block; 
+    padding: .7rem;
+    border-radius: 10px;     
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+#pause, #start, #reset{
+    box-shadow: -2px 2px 4px black;
+    border:none ;
+    border-radius: 2px;
+    font-size: large;
+    color: rgb(73, 24, 24);
+}
